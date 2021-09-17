@@ -1,0 +1,120 @@
+# properties for all file types
+indent.automatic=1
+virtual.space=0
+view.whitespace=0
+view.endofline=0
+code.page=65001
+caretline.visible=1
+highlight.matchingbraces=1
+print.syntax.coloring=1
+use.tab.color=1
+create.backup.files=0
+auto.load.ext.modfiles=0
+save.prj.before.dbg=1
+save.files.before.dbg=1
+function.scanner.project=1
+function.scanner.files=1
+function.scanner.modules=1
+
+# properties for c/cpp files
+syntax.colouring.cpp=1
+use.tab.cpp=1
+tabsize.cpp=4
+line.margin.visible.cpp=1
+fold.cpp=1
+monospaced.font.cpp=1
+
+# properties for asm files
+syntax.colouring.asm=1
+use.tab.asm=1
+tabsize.asm=4
+line.margin.visible.asm=1
+monospaced.font.asm=1
+
+# properties for other files
+use.tabs=1
+tabsize=4
+line.margin.visible.txt=1
+monospaced.font.txt=1
+
+# setting for code completion, syntax check and source browser information
+cc.autolist=1
+cc.highlightsyntax=1
+cc.showparameters=1
+cc.triggerlist=1
+cc.triggernumchars=3
+cc.enter.as.fillup=1
+cc.usealpha4inactcode=1
+cc.alphavalue=50
+cc.autoupdbi=1
+cc.updbiinterval=6
+
+# autosave for editor files
+autosave=1
+autosave.interval=5
+
+# vertical edge at right margin
+edge.mode=0
+edge.column=80
+
+
+# Specification for text selection and caret line
+selection.fore=#000000
+selection.back=#86C7F7
+caret.fore=#FF0000
+caret.back=#636363
+
+# Color for vertical edge
+edge.colour=#66FAFA
+
+# C/C++ Editor files
+template.cpp="#define","#define |";"#if","#if |\r\n\r\n#endif";\\
+    "#include","#include ";"Header","// Header:\r\n// File Name: |\r\n// Author:\r\n// Date:\r\n";\\
+    "continue","continue;";"do","do\r\n{\r\n\t// TODO: enter the block content here\r\n\t\r\n\t|\r\n} while ();\r\n";\\
+    "enum","enum |\r\n{\r\n\t\r\n};\r\n";"for","for(|;;)\r\n{\r\n}";\\
+    "fpointer_type","typedef int (* |F)();\r\n";"function","void function(|)\r\n{\r\n\r\n}\r\n";\\
+    "if","if (|)";"ifelse","if (|)\r\n{\r\n}\r\nelse\r\n{\r\n}";\\
+    "struct","struct | \r\n{\r\n\r\n};\r\n";"switch","switch (|)\r\n{\r\n\tcase:\r\n\t\tbreak;\r\n\tcase:\r\n\t\tbreak;\r\n\tdefault:\r\n\t\tbreak;\r\n}";\\
+    "void","void | ();\r\n";"while","while (|)\r\n{\r\n}";\\
+    
+font.monospace.cpp=Cascadia Code
+font.acpmonofontname.cpp=Cascadia Code
+font.acppropfontname.cpp=Cascadia Code
+style.cpp.32=font:Cascadia Code,size:16,fore:#FFFFFF,back:#3A3A3A
+style.cpp.4=font:Cascadia Code,size:16,fore:#FED79C,back:#3A3A3A
+style.cpp.10=font:Cascadia Code,size:16,fore:#E4E4E4,back:#3A3A3A
+style.cpp.1=font:Cascadia Code,size:16,fore:#C0C0C0,back:#3A3A3A
+style.cpp.2=font:Cascadia Code,size:16,fore:#C0C0C0,back:#3A3A3A
+style.cpp.5=font:Cascadia Code,size:16,fore:#EA8EEC,back:#3A3A3A,bold
+style.cpp.6=font:Cascadia Code,size:16,fore:#9CE653,back:#3A3A3A
+style.cpp.11=font:Cascadia Code,size:16,fore:#93BAFB,back:#3A3A3A
+style.cpp.9=font:Cascadia Code,size:16,fore:#FF80FF,back:#3A3A3A
+style.cpp.7=font:Cascadia Code,size:16,fore:#FF8080,back:#3A3A3A
+style.cpp.34=font:Cascadia Code,size:16,fore:#FFFFFF,back:#A3A3A3
+style.cpp.35=font:Cascadia Code,size:16,fore:#C0C0C0,back:#3A3A3A
+style.cpp.16=font:Cascadia Code,size:16,fore:#D3D3D3,back:#3A3A3A
+style.cpp.12=font:Cascadia Code,size:16,fore:#FF0000,back:#3A3A3A
+
+
+# Asm Editor files
+font.monospace.asm=Courier New
+style.asm.32=font:Courier New,size:10,fore:#000000,back:#FFFFFF
+style.asm.1=font:Courier New,size:10,fore:#616161,back:#FFFFFF
+style.asm.2=font:Courier New,size:10,fore:#FF0000,back:#FFFFFF
+style.asm.3=font:Courier New,size:10,fore:#7F007F,back:#FFFFFF
+style.asm.4=font:Courier New,size:10,fore:#000000,back:#FFFFFF
+style.asm.5=font:Courier New,size:10,fore:#000000,back:#FFFFFF
+style.asm.6=font:Courier New,size:10,fore:#0000FF,back:#FFFFFF
+style.asm.7=font:Courier New,size:10,fore:#0000FF,back:#FFFFFF
+style.asm.9=font:Courier New,size:10,fore:#0000FF,back:#FFFFFF
+style.asm.10=font:Courier New,size:10,fore:#0000FF,back:#FFFFFF
+style.asm.11=font:Courier New,size:10,fore:#007F00,back:#FFFFFF
+style.asm.12=font:Courier New,size:10,fore:#7F007F,back:#FFFFFF
+style.asm.8=font:Courier New,size:10,fore:#46AA03,back:#FFFFFF
+
+
+# Editor Text files
+font.monospace.txt=Courier New
+style.txt.32=font:Verdana,size:10,fore:#000000,back:#FFFFFF
+
+
